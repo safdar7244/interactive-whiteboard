@@ -72,7 +72,7 @@ export default function OrgSidebar() {
           <Link
             href={{
               pathname: "/",
-              query: { favorite: "true" },
+              query: { favorites: "true" },
             }}
           >
             <Star className="h-4 w-4 mr-2" />
